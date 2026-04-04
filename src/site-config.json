@@ -1,0 +1,596 @@
+{
+  "business": {
+    "name": "Horizon Handyman",
+    "phone": "555-han-r90",
+    "category": "handyman",
+    "city": "Kansas City",
+    "state": "MO"
+  },
+  "design": {
+    "preset": {
+      "id": "handyman-trust-navy",
+      "categoryGroup": "handyman",
+      "name": "Trust Navy",
+      "recipeFile": "handyman/trust-navy.astro",
+      "colors": {
+        "primary": "#B45309",
+        "primaryDark": "#78350F",
+        "primaryLight": "#ecd4c2",
+        "secondary": "#994708",
+        "accent": "#F97316",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#B45309",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Cabin",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "handyman/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Reliable Handyman Services in Kansas City",
+      "heroSubline": "From minor repairs to major renovations, Horizon Handyman has you covered. Serving Kansas City families with quality work since 2012.",
+      "aboutTitle": "Built on Trust & Craftsmanship",
+      "aboutText": [
+        "Founded in 2012 by local craftsman Mike Reynolds, Horizon Handyman began as a one-man operation fixing leaky faucets and squeaky doors in Brookside homes. Today, our team of 20+ skilled technicians continues that same hands-on approach across the metro.",
+        "We believe in doing the job right the first time - whether that means matching original 1920s trim details in Waldo or reinforcing garage doors against Midwest storms. Our technicians are background-checked, insured, and trained in the latest techniques.",
+        "As Kansas Citians ourselves, we're proud to support local schools and youth sports teams. When you hire us, you're supporting a business that reinvests in our community."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Experts",
+          "description": "We know Kansas City homes inside and out - from historic Brookside bungalows to Northland new builds."
+        },
+        {
+          "title": "Storm-Ready Repairs",
+          "description": "Our solutions account for Midwest weather, preventing future damage from ice storms and clay soil shifts."
+        },
+        {
+          "title": "No Job Too Small",
+          "description": "Whether it's a loose stair rail or full bathroom remodel, we treat every project with equal care."
+        },
+        {
+          "title": "Clear Communication",
+          "description": "You'll always know the timeline, costs, and next steps - no contractor speak or surprises."
+        }
+      ],
+      "ctaHeadline": "Ready for Stress-Free Home Repairs?",
+      "ctaSubline": "Call 555-han-r90 today for a free estimate from Kansas City's most trusted handyman team."
+    },
+    "services": [
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Seamless fixes for cracks, holes, and water damage in your walls and ceilings.",
+        "description": "Kansas City's freeze-thaw cycles and clay soil movement often lead to drywall cracks and nail pops. Our technicians expertly match textures from 1920s plaster walls to modern Sheetrock, blending repairs seamlessly.\n\nWe start by assessing the underlying cause - whether it's foundation settling in older Brookside homes or moisture damage from Midwest storms. After reinforcing the structure, we use setting-type compounds that withstand our climate's humidity swings. For historic homes, we preserve original details while making durable repairs.\n\nFinal finishes include sanding to museum-quality smoothness and paint matching using our database of local historic colors. Your walls will look like new, with repairs built to last through the next tornado season.",
+        "process": [
+          "Step 1: Inspect damage and identify underlying causes",
+          "Step 2: Reinforce structure if needed (studs, joists)",
+          "Step 3: Apply moisture-resistant patching compounds",
+          "Step 4: Finish with texture matching and paint blending"
+        ],
+        "benefits": [
+          "Prevents recurring cracks from seasonal soil movement",
+          "Matches original textures in historic homes",
+          "Uses mold-resistant materials for humid summers",
+          "Leaves walls ready for immediate painting"
+        ],
+        "faq": [
+          {
+            "question": "How long do drywall repairs last in KC's climate?",
+            "answer": "Our reinforced repairs typically last 8-10 years, even with clay soil movement. We use flexible compounds that move with your home rather than cracking."
+          },
+          {
+            "question": "Can you match my 1930s plaster walls?",
+            "answer": "Yes, we've documented textures from all eras of Kansas City homes. Our artisans can recreate everything from skip-trowel to orange peel finishes."
+          }
+        ]
+      },
+      {
+        "slug": "deck-maintenance",
+        "name": "Deck Maintenance",
+        "shortDescription": "Protect your outdoor living space from Midwest weather extremes.",
+        "description": "Kansas City decks face brutal challenges - summer humidity that breeds mold, winter ice that warps boards, and UV rays that fade finishes. Our comprehensive maintenance extends your deck's life while keeping it safe for family gatherings.\n\nWe start by power washing with eco-friendly cleaners that remove grime without damaging wood fibers. Next comes careful inspection for loose railings, popped nails, and rot - especially critical in older neighborhoods like Waldo where decks often predate modern building codes.\n\nFor refinishing, we use premium stains formulated for our climate, with UV inhibitors and water repellents. We pay special attention to end grains and hidden areas where moisture penetrates. The result? A deck that withstands backyard BBQs and ice storms alike.\n\nFor composite decks common in newer Olathe developments, we offer specialized cleaning that removes mildew without voiding warranties.",
+        "process": [
+          "Step 1: Deep clean with pressure washer (appropriate PSI for material)",
+          "Step 2: Inspect structure and tighten all fasteners",
+          "Step 3: Sand rough areas and repair damaged boards",
+          "Step 4: Apply protective sealant with brush/roller"
+        ],
+        "benefits": [
+          "Prevents costly replacement from weather damage",
+          "Reduces slip hazards from mold/mildew",
+          "Maintains property value in KC's competitive market",
+          "Custom solutions for wood vs composite materials"
+        ],
+        "faq": [
+          {
+            "question": "How often should I reseal my deck?",
+            "answer": "In our climate, wood decks need resealing every 2-3 years. Composite materials require annual cleaning but less frequent treatments."
+          },
+          {
+            "question": "Can you repair rotted posts without full replacement?",
+            "answer": "We often use epoxy consolidants for partial rot, saving the original post if structure permits. Full replacements match existing designs."
+          }
+        ]
+      },
+      {
+        "slug": "interior-carpentry",
+        "name": "Interior Carpentry",
+        "shortDescription": "Custom woodwork that honors your home's character while adding modern function.",
+        "description": "From restoring original 1920s built-ins in Brookside to crafting closet systems for modern Northland homes, our carpenters bridge Kansas City's architectural eras with precision craftsmanship.\n\nWe mill replacement trim to match historic profiles, using local lumber when possible to maintain grain consistency. For renovations, we ensure new work blends seamlessly - whether that means distressing maple to match century-old oak or replicating Craftsman-era joinery.\n\nCommon projects include:\n- Window/door casings damaged by seasonal movement\n- Built-in bookshelves and window seats\n- Wainscoting and crown molding installations\n- Pantry and closet organization systems\n\nFor newer homes, we install sturdy shelving systems that withstand kids and pets. For historic properties, we document original details before making alterations, preserving your home's story.",
+        "process": [
+          "Step 1: Assess existing architecture and take precise measurements",
+          "Step 2: Select materials matching original species/grain where applicable",
+          "Step 3: Fabricate components in our climate-controlled shop",
+          "Step 4: Install with period-appropriate fasteners/finishes"
+        ],
+        "benefits": [
+          "Maintains historic home authenticity",
+          "Uses durable hardwoods suited to Midwest humidity",
+          "Custom solutions for awkward spaces",
+          "Precision joinery prevents seasonal gaps"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my home's original trim exactly?",
+            "answer": "We maintain profiles for most KC architectural styles and can create custom knives for router work if needed. Stains are custom-mixed on site."
+          },
+          {
+            "question": "Will new woodwork shrink/gap in winter?",
+            "answer": "We kiln-dry all lumber to 6-8% moisture content - the ideal range for our climate - minimizing seasonal movement."
+          }
+        ]
+      },
+      {
+        "slug": "window-repair",
+        "name": "Window Repair",
+        "shortDescription": "Restore efficiency and charm to your home's windows.",
+        "description": "Kansas City's historic windows tell your home's story - but drafty sashes and stuck weights drive up energy bills. We specialize in preserving original windows while making them functional for modern living.\n\nFor 1920s-40s homes in Waldo and Brookside, we carefully repair pulley systems, replace broken cords, and re-glaze loose panes using traditional methods. Storm windows can be added historically to improve efficiency without altering character.\n\nIn suburban ranch homes common to Lee's Summit, we address aluminum slider tracks and fogged thermal panes. Our weatherstripping techniques reduce drafts while maintaining original operation.\n\nWe also repair/replace window screens using pet-resistant mesh for active households. All work includes lubrication and adjustment for smooth operation through seasonal wood movement.",
+        "process": [
+          "Step 1: Diagnose sticking/draft issues (frame, sash, or hardware)",
+          "Step 2: Restore original mechanisms where possible",
+          "Step 3: Apply weatherstripping and adjust balances",
+          "Step 4: Finish with lubrication and cleaning"
+        ],
+        "benefits": [
+          "Preserves historic home authenticity",
+          "Reduces heating/cooling costs by 15-20%",
+          "Eliminates dangerous dangling cords",
+          "Maintains original wood rather than vinyl replacement"
+        ],
+        "faq": [
+          {
+            "question": "Should I replace my original wood windows?",
+            "answer": "Not usually - properly restored historic windows last decades longer than vinyl and maintain your home's value. We'll advise if replacement is truly needed."
+          },
+          {
+            "question": "Can you fix windows painted shut?",
+            "answer": "Yes, we carefully free sashes using specialty tools that prevent damage to original wood. Expect some repainting touch-ups afterward."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-upgrades",
+        "name": "Bathroom Upgrades",
+        "shortDescription": "Functional, stylish updates tailored to your home's era.",
+        "description": "Whether refreshing a 1920s pedestal sink in a Waldo bungalow or installing walk-in showers for aging-in-place in Lee's Summit, our bathroom upgrades blend modern convenience with respect for your home's architecture.\n\nWe specialize in:\n- Tub-to-shower conversions using low-threshold bases\n- Vanity installations that maximize small KC bathroom footprints\n- Historic tile restoration and regrouting\n- Grab bar installations that look intentional, not institutional\n- Waterproofing solutions for our humid summers\n\nFor older homes, we source period-appropriate fixtures or modify new ones to match. In newer developments, we install water-efficient faucets and LED lighting that cuts utility bills.\n\nEvery project includes proper ventilation to prevent Midwest mold issues. We coordinate with licensed plumbers and electricians as needed, handling all permits and inspections.",
+        "process": [
+          "Step 1: Assess plumbing/structural limitations and design needs",
+          "Step 2: Select materials appropriate for home's era and family use",
+          "Step 3: Install with waterproofing best practices",
+          "Step 4: Finish with caulking and ventilation testing"
+        ],
+        "benefits": [
+          "Improves safety without sacrificing style",
+          "Uses moisture-resistant materials for humid climate",
+          "Preserves historic charm where desired",
+          "Increases home value more than most renovations"
+        ],
+        "faq": [
+          {
+            "question": "How can I make my small KC bathroom more functional?",
+            "answer": "We often use corner sinks, recessed storage, and sliding shower doors to maximize space in pre-war bathrooms."
+          },
+          {
+            "question": "Will new tile crack with seasonal movement?",
+            "answer": "We use uncoupling membranes and flexible grouts to prevent cracks from our freeze-thaw cycles."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-trim-repair",
+        "name": "Exterior Trim Repair",
+        "shortDescription": "Protect your home's exterior from Midwest weather damage.",
+        "description": "Kansas City's combination of ice storms, summer humidity, and woodpeckers takes a toll on exterior trim. We repair and replace damaged fascia, soffits, and decorative elements using materials that stand up to our climate.\n\nFor historic homes, we replicate original millwork profiles in durable PVC or fiber cement where appropriate. Paint finishes are applied with proper priming techniques to prevent peeling from temperature swings.\n\nCommon repairs include:\n- Rotted window/door casings\n- Loose or missing gingerbread trim\n- Damaged rake boards and eaves\n- Woodpecker holes in cedar siding\n\nWe also address improper flashing details - a major cause of rot in older KC homes. All work includes caulking and sealing to prevent future water intrusion during our heavy spring rains.",
+        "process": [
+          "Step 1: Inspect for rot, insect damage, and loose components",
+          "Step 2: Remove damaged sections with minimal disturbance",
+          "Step 3: Fabricate replacements matching original profiles",
+          "Step 4: Install with proper flashing and sealants"
+        ],
+        "benefits": [
+          "Prevents structural water damage",
+          "Maintains historic curb appeal",
+          "Uses materials resistant to KC's pests and weather",
+          "Proper flashing prevents recurring issues"
+        ],
+        "faq": [
+          {
+            "question": "Should I replace wood trim with synthetic materials?",
+            "answer": "For historic homes, we often preserve visible wood elements but use synthetics in vulnerable areas like ground contact. The choice depends on your preservation goals."
+          },
+          {
+            "question": "How do you prevent woodpecker damage?",
+            "answer": "We install metal flashing behind replacement trim in problem areas and can add discreet visual deterrents that don't alter your home's appearance."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-refreshes",
+        "name": "Kitchen Refreshes",
+        "shortDescription": "Affordable updates that make your kitchen more enjoyable and functional.",
+        "description": "You don't need a full remodel to fall back in love with your Kansas City kitchen. Our targeted refreshes address pain points while respecting your budget and home's character.\n\nFor 1960s-70s ranch homes common in the metro, we:\n- Replace worn laminate countertops with durable quartz\n- Install soft-close drawers that withstand family use\n- Add under-cabinet lighting to brighten workspaces\n- Refresh dated backsplashes with easy-clean tile\n\nIn older homes, we preserve original cabinets through careful refinishing and hardware updates. New pulls and hinges can make 1920s cabinetry function like new while maintaining vintage charm.\n\nWe also specialize in:\n- Pantry organization systems\n- Appliance garage installations\n- Breakfast nook built-ins\n\nEvery project includes proper ventilation solutions to handle Midwest cooking humidity and prevent grease buildup.",
+        "process": [
+          "Step 1: Identify pain points and prioritize improvements",
+          "Step 2: Select materials that balance durability and aesthetics",
+          "Step 3: Complete installations with minimal disruption",
+          "Step 4: Finish with functional details like organizers"
+        ],
+        "benefits": [
+          "Breathes new life into tired kitchens",
+          "Focuses budget on high-impact changes",
+          "Preserves original elements where valuable",
+          "Improves workflow for real-world cooking"
+        ],
+        "faq": [
+          {
+            "question": "Can you make my 1950s cabinets more functional?",
+            "answer": "Absolutely. We often add pull-out shelves, lazy Susans, and dividers that modernize storage without replacing solid wood cabinets."
+          },
+          {
+            "question": "What's the most cost-effective kitchen update?",
+            "answer": "New lighting, cabinet hardware, and a fresh backsplash typically provide the biggest visual impact per dollar in our experience."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "After our basement flooded during that bad storm last April, Horizon fixed all the water-damaged drywall in our Brookside home. They matched our original 1930s textured plaster perfectly - you'd never know there was damage. The crew was so careful moving furniture too.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Deck Maintenance",
+        "text": "Our Waldo deck was looking rough after 15 Midwest winters. Horizon replaced the rotted railings with cedar that matches the original, then stained everything to protect against future damage. They even reinforced the stairs that were starting to wobble. Solid work!",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Megan L.",
+        "rating": 5,
+        "service": "Window Repair",
+        "text": "The original windows in our 1924 bungalow were painted shut and drafty. Horizon restored all 12 windows, replacing broken cords and adding weatherstripping that's cut our heating bill. They took such care with the historic glass - not a single pane was broken during the process.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "David R.",
+        "rating": 5,
+        "service": "Bathroom Upgrades",
+        "text": "We needed our Lee's Summit bathroom made safer for my mom. Horizon installed a beautiful walk-in shower with grab bars that look like towel racks, and a comfort-height toilet. The tile work is flawless, and they finished two days ahead of schedule.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Interior Carpentry",
+        "text": "Horizon built custom bookshelves for our odd-shaped living room in Northland. They matched our existing trim exactly and designed shelves that account for our expansive clay soil. A year later - no gaps or warping like we've had with previous carpenters.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Carlos S.",
+        "rating": 5,
+        "service": "Exterior Trim Repair",
+        "text": "Woodpeckers did a number on our Overland Park home's cedar trim. Horizon repaired the damage with synthetic pieces that look identical to the original wood but are pest-resistant. Their paint job has held up perfectly through last winter's ice storms.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Kansas City Handyman Services | Horizon Handyman",
+        "description": "Trusted local handyman serving KC since 2012. Quality repairs for homes in Brookside, Waldo, Northland, and beyond. Free estimates."
+      },
+      "about": {
+        "title": "About Horizon Handyman | Kansas City Home Experts",
+        "description": "Learn about our locally-owned handyman business serving Kansas City with integrity since 2012. Meet our team and values."
+      },
+      "services": {
+        "title": "Handyman Services in Kansas City | Horizon Handyman",
+        "description": "Complete home repair services for KC's historic and modern homes. Drywall, carpentry, decks, bathrooms, and more. Locally trusted."
+      },
+      "contact": {
+        "title": "Contact Horizon Handyman | Kansas City Repairs",
+        "description": "Schedule your Kansas City home repair with Horizon Handyman. Call 555-han-r90 for prompt service in the metro area."
+      },
+      "reviews": {
+        "title": "Horizon Handyman Reviews | Kansas City Clients",
+        "description": "See why Kansas City homeowners trust Horizon Handyman for quality repairs. Read our 5-star reviews from local clients."
+      },
+      "service-areas": {
+        "title": "Kansas City Handyman Service Areas | Horizon",
+        "description": "Serving Overland Park, Olathe, Lee's Summit and all KC metro. Local handyman services tailored to your neighborhood."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Overland Park",
+        "slug": "overland-park-mo",
+        "state": "MO",
+        "content": "Horizon Handyman proudly serves the homeowners of Overland Park, MO, a thriving suburb with a population of approximately 197,000. Many homes here were built in the 1970s to 1990s, meaning they often require maintenance and updates to keep them in top condition. Our team specializes in everything from minor repairs to major renovations, ensuring your home remains safe and comfortable year-round. Given the area's cold winters and frequent ice storms, we also offer weatherproofing and emergency repair services to protect your property from harsh conditions.",
+        "localContext": "Overland Park is known for its well-established suburban neighborhoods, offering a mix of mid-century and modern homes.",
+        "nearbyAreas": [
+          "Leawood",
+          "Shawnee",
+          "Lenexa"
+        ]
+      },
+      {
+        "city": "Olathe",
+        "slug": "olathe-mo",
+        "state": "MO",
+        "content": "Residents of Olathe, MO, trust Horizon Handyman for their home repair and improvement needs. With a population of around 145,000, Olathe features many family-friendly developments built from the 1980s to the 2000s. Our team is experienced in addressing common issues in these homes, such as aging fixtures, roofing repairs, and HVAC maintenance. The cold winters and ice storms in this area make it essential to prepare your home for seasonal challenges, and we’re here to help with insulation, gutter cleaning, and more.",
+        "localContext": "Olathe is a growing community with a focus on family-oriented neighborhoods and modern conveniences.",
+        "nearbyAreas": [
+          "Gardner",
+          "Spring Hill",
+          "De Soto"
+        ]
+      },
+      {
+        "city": "Lee's Summit",
+        "slug": "lee-s-summit-mo",
+        "state": "MO",
+        "content": "Horizon Handyman is your go-to for home maintenance in Lee's Summit, MO, a city of about 101,000 residents. Many homes here date back to the 1970s-1990s, and our team is skilled in updating and maintaining these properties to meet modern standards. From plumbing and electrical work to exterior repairs, we handle it all. The cold winters and ice storms in Lee's Summit can take a toll on homes, so we also provide seasonal services like winterizing pipes and repairing storm damage.",
+        "localContext": "Lee's Summit is a charming city with a mix of established family homes and a strong sense of community.",
+        "nearbyAreas": [
+          "Independence",
+          "Blue Springs",
+          "Raymore"
+        ]
+      },
+      {
+        "city": "Independence",
+        "slug": "independence-mo",
+        "state": "MO",
+        "content": "Horizon Handyman provides reliable home repair services to the residents of Independence, MO. This historic city has a diverse range of homes, from older properties to newer builds, all requiring regular upkeep. Our team is equipped to handle everything from small fixes to large renovations. With cold winters and ice storms common in the area, we also offer preventative maintenance to protect your home from weather-related damage.",
+        "localContext": "Independence is rich in history and features a mix of architectural styles, from classic to contemporary.",
+        "nearbyAreas": [
+          "Lee's Summit",
+          "Blue Springs",
+          "Sugar Creek"
+        ]
+      },
+      {
+        "city": "Blue Springs",
+        "slug": "blue-springs-mo",
+        "state": "MO",
+        "content": "Homeowners in Blue Springs, MO, rely on Horizon Handyman for top-quality repair and maintenance services. Many homes in this area were built in the 1980s and 1990s, and our team is familiar with the common issues they face. Whether you need plumbing, electrical, or general handyman services, we’ve got you covered. The region's cold winters and ice storms make it crucial to prepare your home, and we offer solutions like insulation and storm-proofing.",
+        "localContext": "Blue Springs is a family-friendly city with a mix of suburban neighborhoods and outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Independence",
+          "Grain Valley",
+          "Lake Tapawingo"
+        ]
+      },
+      {
+        "city": "Lenexa",
+        "slug": "lenexa-mo",
+        "state": "MO",
+        "content": "Horizon Handyman is proud to serve Lenexa, MO, a vibrant community with a growing population. Many homes here are part of well-planned suburban developments, and our team specializes in maintaining and improving these properties. From kitchen remodels to exterior repairs, we handle projects of all sizes. Lenexa's cold winters and ice storms can cause wear and tear, so we also provide seasonal maintenance to keep your home in great shape.",
+        "localContext": "Lenexa is known for its modern amenities and well-maintained neighborhoods.",
+        "nearbyAreas": [
+          "Overland Park",
+          "Shawnee",
+          "Olathe"
+        ]
+      },
+      {
+        "city": "Shawnee",
+        "slug": "shawnee-mo",
+        "state": "MO",
+        "content": "Shawnee, MO, homeowners trust Horizon Handyman for dependable home repair services. The city features a mix of older and newer homes, and our team is skilled in addressing the unique needs of each. Whether you need a quick fix or a major renovation, we’re here to help. With cold winters and ice storms common in Shawnee, we also offer services like gutter cleaning and weatherproofing to protect your home.",
+        "localContext": "Shawnee offers a blend of suburban charm and modern conveniences.",
+        "nearbyAreas": [
+          "Lenexa",
+          "Overland Park",
+          "Merriam"
+        ]
+      },
+      {
+        "city": "Raymore",
+        "slug": "raymore-mo",
+        "state": "MO",
+        "content": "Horizon Handyman provides expert home services to Raymore, MO, a welcoming community with a growing population. Many homes here are family-oriented and require regular maintenance to stay in top condition. Our team handles everything from minor repairs to major projects, ensuring your home is safe and comfortable. Raymore's cold winters and ice storms make it essential to prepare your property, and we offer solutions like insulation and emergency repairs.",
+        "localContext": "Raymore is a tight-knit community with a focus on family-friendly living.",
+        "nearbyAreas": [
+          "Belton",
+          "Lee's Summit",
+          "Peculiar"
+        ]
+      },
+      {
+        "city": "Belton",
+        "slug": "belton-mo",
+        "state": "MO",
+        "content": "Horizon Handyman is here to help Belton, MO, residents with all their home repair needs. The city features a mix of older and newer homes, and our team is experienced in maintaining and updating them. From plumbing to electrical work, we provide reliable services to keep your home functioning smoothly. Belton's cold winters and ice storms can be tough on properties, so we also offer seasonal maintenance to prevent damage.",
+        "localContext": "Belton is a small but growing city with a strong sense of community.",
+        "nearbyAreas": [
+          "Raymore",
+          "Grandview",
+          "Peculiar"
+        ]
+      },
+      {
+        "city": "Grandview",
+        "slug": "grandview-mo",
+        "state": "MO",
+        "content": "Horizon Handyman serves the homeowners of Grandview, MO, with professional repair and maintenance services. Many homes in this area are older and require regular upkeep to remain comfortable and safe. Our team handles everything from minor fixes to major renovations, ensuring your home meets your needs. Grandview's cold winters and ice storms can cause issues like frozen pipes, so we offer preventative services to protect your property.",
+        "localContext": "Grandview is a historic city with a mix of residential and commercial areas.",
+        "nearbyAreas": [
+          "Belton",
+          "Raytown",
+          "Lee's Summit"
+        ]
+      },
+      {
+        "city": "Liberty",
+        "slug": "liberty-mo",
+        "state": "MO",
+        "content": "Horizon Handyman is proud to serve Liberty, MO, a city with a rich history and a growing population. Many homes here are older and require regular maintenance to stay in great condition. Our team provides everything from plumbing and electrical work to carpentry and painting. Liberty's cold winters and ice storms can be harsh, so we also offer weatherproofing and emergency repair services to keep your home protected.",
+        "localContext": "Liberty is known for its historic downtown and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Gladstone",
+          "Kearney",
+          "Smithville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "deck-maintenance": "/images/service-deck-maintenance.webp",
+      "interior-carpentry": "/images/service-interior-carpentry.webp",
+      "window-repair": "/images/service-window-repair.webp",
+      "bathroom-upgrades": "/images/service-bathroom-upgrades.webp",
+      "exterior-trim-repair": "/images/service-exterior-trim-repair.webp",
+      "kitchen-refreshes": "/images/service-kitchen-refreshes.webp"
+    },
+    "servicesResponsive": {
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-maintenance": {
+        "src": "/images/service-deck-maintenance.webp",
+        "srcset": "/images/service-deck-maintenance-400w.webp 400w, /images/service-deck-maintenance-800w.webp 800w, /images/service-deck-maintenance-1200w.webp 1200w, /images/service-deck-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "interior-carpentry": {
+        "src": "/images/service-interior-carpentry.webp",
+        "srcset": "/images/service-interior-carpentry-400w.webp 400w, /images/service-interior-carpentry-800w.webp 800w, /images/service-interior-carpentry-1200w.webp 1200w, /images/service-interior-carpentry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "window-repair": {
+        "src": "/images/service-window-repair.webp",
+        "srcset": "/images/service-window-repair-400w.webp 400w, /images/service-window-repair-800w.webp 800w, /images/service-window-repair-1200w.webp 1200w, /images/service-window-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-upgrades": {
+        "src": "/images/service-bathroom-upgrades.webp",
+        "srcset": "/images/service-bathroom-upgrades-400w.webp 400w, /images/service-bathroom-upgrades-800w.webp 800w, /images/service-bathroom-upgrades-1200w.webp 1200w, /images/service-bathroom-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-trim-repair": {
+        "src": "/images/service-exterior-trim-repair.webp",
+        "srcset": "/images/service-exterior-trim-repair-400w.webp 400w, /images/service-exterior-trim-repair-800w.webp 800w, /images/service-exterior-trim-repair-1200w.webp 1200w, /images/service-exterior-trim-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "kitchen-refreshes": {
+        "src": "/images/service-kitchen-refreshes.webp",
+        "srcset": "/images/service-kitchen-refreshes-400w.webp 400w, /images/service-kitchen-refreshes-800w.webp 800w, /images/service-kitchen-refreshes-1200w.webp 1200w, /images/service-kitchen-refreshes.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
